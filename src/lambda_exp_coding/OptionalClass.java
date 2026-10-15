@@ -24,7 +24,7 @@ public class OptionalClass {
         String str = "Hello, World!";
         Optional<String> optStr = Optional.ofNullable(str);
 
-        if(!optStr.isPresent()){
+        if (!optStr.isPresent()) {
             System.out.println("Value is not present");
         } else {
             System.out.println("Value is present: " + optStr.get());
@@ -43,7 +43,7 @@ public class OptionalClass {
         }
     }
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         check_null_value();
         check_value();
         check_optionalOf();

@@ -20,7 +20,4 @@ public class CheckEmpty {
         System.out.println(isEmpty.test(null));
         System.out.println(isEmpty.test("hello"));
     }
-
-
-
 }

@@ -7,17 +7,17 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /*
-* Problem Statement: Given a list of names, use List.sort() and
-* a lambda expression to sort them in reverse alphabetical order.
-* */
+ * Problem Statement: Given a list of names, use List.sort() and
+ * a lambda expression to sort them in reverse alphabetical order.
+ * */
 
 public class SortNames {
 
-    public static void main(String[] arg){
+    public static void main(String[] arg) {
 
         //1. Using List.sort() and a lambda expression to sort them in reverse alphabetical order.
         List<String> lst = new ArrayList<>(List.of("Charlie", "Alice", "Bob", "Diana"));
-        lst.sort((a,b) -> b.compareTo(a));
+        lst.sort((a, b) -> b.compareTo(a));
 
         System.out.println(lst);
 

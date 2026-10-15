@@ -1,11 +1,12 @@
 package lambda_exp_coding;
+
 import java.util.*;
 import java.util.stream.Collectors;
 
 /*
-* Problem Statement: Write a lambda expression that implements a custom functional interface StringProcessor
-* with a method String process(String s), which converts a given string to uppercase.
-* */
+ * Problem Statement: Write a lambda expression that implements a custom functional interface StringProcessor
+ * with a method String process(String s), which converts a given string to uppercase.
+ * */
 
 @FunctionalInterface
 interface StringProcessor {
